@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family= Ubuntu & display = swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.botao-tela-inicial {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  box-shadow: 2px 2px 0px 1px #4a4c69;
+  text-transform: uppercase;
+  background-color: #8386b5;
+  border: none;
+  border-radius: 0.75rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.botao-tela-inicial:hover {
+  background-color: #4a4c69;
+  box-shadow: 2px 2px 0px 1px #1C1C1C;
+}/*# sourceMappingURL=style.css.map */
